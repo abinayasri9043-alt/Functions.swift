@@ -1,0 +1,9 @@
+func greet(name: String) -> String {
+  return "Hello, \(name)!"
+}
+print(greet(name: "Swift"))
+
+parameter and return values
+
+func add(_ a: Int, _ b: Int) -> Int { a + b }
+print(add(2, 3))
